@@ -1,0 +1,22 @@
+{
+    "name": "wdst/sync",
+    "description": "sync",
+    "type": "library",
+    "keywords": [
+        "sync"
+    ],
+    "authors": [
+        {
+            "name": "wds",
+            "email": "wds@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sync\\": "classes"
+        }
+    }
+}
